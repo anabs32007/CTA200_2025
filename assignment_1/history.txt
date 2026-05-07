@@ -1,0 +1,45 @@
+  539  cd CTA200_2025
+  540  ls
+  541  mkdir assignment_1
+  542  touch README.md
+  543  vi README.md
+  544  ls
+  545  cd /
+  546  ls
+  547  cd home/murray
+  548  ls
+  549  find .
+  550  =name
+  551  "Hello world.py!
+-print 2>/dev/null
+(cosmo1$ find .
+=name
+"Hello world.py!
+  552  -print 2>/dev/null
+  553  find . -name 'Hello_world.py' -print 2>/dev/null
+  554  cp ./tmp/Hello_world.py /fs/lustre/scratch/asamaga/CTA200_2025/assignment_1
+  555  find . -name 'Hello_world.c' -print 2>/dev/null
+  556  cp ./Papers/tmp/Hello_world.c
+  557  cp ./Papers/tmp/Hello_world.c /fs/lustre/scratch/asamaga/CTA200_2025/assignment_1
+  558  cd /fs/lustre/scratch/asamaga/CTA200_2025/assignment_1
+  559  ls
+  560  mv Hello_world.c Hello_world_samaga.c
+  561  mv Hello_world.py Hello_world_samaga.py
+  562  ls
+  563  module load gcc
+  564  gcc Hello_world_samaga.c -o Hello_world.x
+  565  ./Hello_world.x
+  566  python3 Hello_world_samaga.py
+  567  vi Hello_world_samaga.c
+  568  vi Hello_world_samaga.py
+  569  gcc Hello_world_samaga.c -o Hello_world_samaga.x
+  570  ./Hello_world_samaga.x
+  571  python3 Hello_world_samaga.py
+  572  ./Hello_world_samaga.x > output_c.txt
+  573  python3 Hello_world_samaga.py > output_python.txt
+  574  history
+  575  history | tail -n 40
+  576  history -n 40
+  577  history -40
+  578  history | tail -n 45 > /fs/lustre/scratch/USERNAME/CTA200_2025/assignment_1/history.txt
+  579  history | tail -n 45 > /fs/lustre/scratch/asamaga/CTA200_2025/assignment_1/history.txt
